@@ -24,7 +24,7 @@ function Intro() {
       };
       let history = useHistory();
     return (
-      <Center style={frame} onClick={()=> history.push("/overview")}>
+      <Center style={frame} onClick={()=> history.push("/overview/0%7D")}>
           <div style={{maxWidth: 800, margin: 40}}>
             <p>
                 Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 

@@ -7,6 +7,9 @@ import Intro from './pages/Intro/Intro';
 import Overview from './pages/Overview/Overview';
 import Gallery from './pages/Gallery/GalleryContainer';
 
+import { SliderData } from './Slider/SliderData'
+import Contact from './pages/Contact/Contact';
+
 
 function AnimatedRoutes() {
     const location = useLocation();
@@ -15,8 +18,9 @@ function AnimatedRoutes() {
       <Switch location={location} key={location.pathname}>
         <Route exact path="/" component = {Home}/>
         <Route exact path="/intro" component={Intro} />
-        <Route exact path="/overview" component={Overview} />
+        <Route path="/overview/:id" component={Overview} />
         <Route exact path="/gallery" component={Gallery}/>
+        <Route exact path= "/contactme" component={Contact}/>
       </Switch>
     </AnimatePresence>
   )
