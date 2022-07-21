@@ -11,7 +11,7 @@
     top: -2rem;
     left: -4rem;
     max-width: 1200px;
-    max-height: 1000px;
+    max-height: 800px;
 }
 
 .right-arrow {
@@ -87,4 +87,31 @@
     top: -1rem;
     font-size: 11px;
         letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 600px) {
+    .slide.active > img {
+        top: -10rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .slide.active > .image { 
+        position: absolute;
+    }
+    .image {
+        top: 5rem;
+    }
+
+    .image {
+        top: 0;
+        left: 0;
+        margin: auto;
+        display: block;
+        margin-left: 9rem;
+        max-height: 800px;
+        max-width: 700px;
+    }
+    .slide.active > .image_text {
+        float: left;
+    }
 }

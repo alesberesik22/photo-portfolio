@@ -1,18 +1,21 @@
+import obrazok1 from '../../../asserts/photos/bmw/DSC003461.jpg'
+import obrazok2 from '../../../asserts/photos/tenis/DSC01410.JPG'
+import obrazok3 from '../../../asserts/photos/street/DSC02342.JPG'
 export const photos = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    src: obrazok1,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    src: obrazok2,
     width: 1,
-    height: 1
+    height: 1.4
   },
   {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-    width: 3,
-    height: 4
+    src: obrazok3,
+    width: 5,
+    height: 3
   },
   {
     src: "https://source.unsplash.com/iecJiKe_RNg/600x799",

@@ -22,3 +22,40 @@
         text-transform: uppercase;
         vertical-align: baseline;
 }
+.footer_socials {
+}
+.footer_socials a {
+    font-size: 1.5rem;
+    width: 1rem;
+    justify-content: center;
+    color: black;
+    padding: 0.35rem;
+    margin: 0;
+    border-radius: 0.7rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease-out;
+}
+
+.footer_socials a:hover {
+    background: transparent;
+    color:purple;
+}
+
+@media screen and (max-width: 600px) {
+    .contact_container{
+        margin-left: 2rem;
+    }
+    .contact_container > .footer_socials {
+        margin-left: 5rem;
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    .contact_container {
+        
+        margin-left: 8rem;
+    }
+    .contact_container > .footer_socials {
+        margin-left: 2rem;
+    }
+}

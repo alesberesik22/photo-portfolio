@@ -1,61 +1,106 @@
+import obrazok1 from '../../../asserts/photos/bmw/DSC00114.JPG'
+import obrazok2 from '../../../asserts/photos/bmw/DSC00182.JPG'
+import obrazok3 from '../../../asserts/photos/bmw/DSC00185.JPG'
+import obrazok4 from '../../../asserts/photos/bmw/DSC00186-3sssss.jpg'
+import obrazok5 from '../../../asserts/photos/bmw/DSC0018622.jpg'
+import obrazok6 from '../../../asserts/photos/bmw/DSC00346.jpg'
+import obrazok7 from '../../../asserts/photos/bmw/DSC003461.jpg'
+
+import tenis1 from '../../../asserts/photos/tenis/DSC01066.JPG'
+import tenis2 from '../../../asserts/photos/tenis/DSC01410.JPG'
+import tenis3 from '../../../asserts/photos/tenis/DSC01418.JPG'
+import tenis4 from '../../../asserts/photos/tenis/DSC01466.JPG'
+import tenis5 from '../../../asserts/photos/tenis/DSC01588.JPG'
+import tenis6 from '../../../asserts/photos/tenis/DSC01618.JPG'
+import tenis7 from '../../../asserts/photos/tenis/DSC01860.JPG'
+import tenis8 from '../../../asserts/photos/tenis/DSC01966.JPG'
+
+import arteon1 from '../../../asserts/photos/street/DSC02342.JPG'
+
 export const actions = [
     [{
-        image: 'https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-        title: 'Test',
-        description: 'Nieco 123',
+        image: obrazok1,
+        title: 'Zakaznik s bmw',
+        description: 'BMW M240i',
     },
     {
-        image: 'https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-        title: 'Test',
-        description: 'Nieco 123',
+        image: obrazok2,
+        title: 'Zakaznik s bmw',
+        description: 'BMW M240i',
     },
     {
-        image: 'https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-        title: 'Test',
-        description: 'Nieco 123',
+        image: obrazok3,
+        title: 'Zakaznik s bmw',
+        description: 'BMW M240i',
     },
     {
-        image: 'https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-        title: 'Test',
-        description: 'Nieco 123',
-    }
-    ],
-    [{
-        image: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
-        title: 'Test',
-        description: 'Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 ',
+        image: obrazok4,
+        title: 'Zakaznik s bmw',
+        description: 'BMW M240i',
     },
     {
-        image: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
-        title: 'Test',
-        description: 'Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 ',
+        image: obrazok5,
+        title: 'Zakaznik s bmw',
+        description: 'BMW M240i',
     },
     {
-        image: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
-        title: 'Test',
-        description: 'Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 ',
+        image: obrazok6,
+        title: 'Zakaznik s bmw',
+        description: 'BMW M240i',
     },
     {
-        image: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
-        title: 'Test',
-        description: 'Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 Nieco 123 ',
-    }
+        image: obrazok7,
+        title: 'Zakaznik s bmw',
+        description: 'BMW M240i',
+    },
     ],
     [
         {
-            image: 'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
-            title: 'Test',
-            description: 'Nieco 123',
+            image: tenis1,
+            title: 'Tenisovy turnaj',
+            description: 'Nejaky typek',
         },
         {
-            image: 'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
-            title: 'Test',
-            description: 'Nieco 123',
+            image: tenis2,
+            title: 'Tenisovy turnaj',
+            description: 'Nejaky typek',
         },
         {
-            image: 'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
-            title: 'Test',
-            description: 'Nieco 123',
+            image: tenis3,
+            title: 'Tenisovy turnaj',
+            description: 'Nejaky typek',
+        },
+        {
+            image: tenis4,
+            title: 'Tenisovy turnaj',
+            description: 'Nejaky typek',
+        },
+        {
+            image: tenis5,
+            title: 'Tenisovy turnaj',
+            description: 'Nejaky typek',
+        },
+        {
+            image: tenis6,
+            title: 'Tenisovy turnaj',
+            description: 'Nejaky typek',
+        },
+        {
+            image: tenis7,
+            title: 'Tenisovy turnaj',
+            description: 'Nejaky typek',
+        },
+        {
+            image: tenis8,
+            title: 'Tenisovy turnaj',
+            description: 'Nejaky typek',
+        }
+    ],
+    [
+        {
+            image: arteon1,
+            title: 'Praha',
+            description: 'Arteon a.k.a Passat'
         }
     ]
 ]
