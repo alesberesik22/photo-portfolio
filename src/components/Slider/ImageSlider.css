@@ -89,11 +89,7 @@
         letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 600px) {
-    .slide.active > img {
-        top: -10rem;
-    }
-}
+
 @media screen and (max-width: 1024px) {
     .slide.active > .image { 
         position: absolute;
@@ -103,15 +99,33 @@
     }
 
     .image {
-        top: 0;
-        left: 0;
-        margin: auto;
-        display: block;
+        margin-top: -11rem;
+        left: -4rem;
         margin-left: 9rem;
         max-height: 800px;
         max-width: 700px;
     }
     .slide.active > .image_text {
         float: left;
+    }
+    .img-text {
+        left: 5rem;
+        float: left;
+        top: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .slide.active>img {
+        top: -10rem;
+    }
+
+    .image {
+        max-height: 650px;  
+        max-width: 350px;
     }
 }
