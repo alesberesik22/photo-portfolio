@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import "./Home.css";
 
 import Center from "../../tools/Center";
-import introVideo from "../../../asserts/introVideo/intro2.mp4";
+import introVideo from "../../../asserts/introVideo/intromov.mp4";
 
 class Home extends React.Component {
   constructor(props) {
@@ -53,6 +53,7 @@ class Home extends React.Component {
         <video
           loop
           autoPlay
+          muted
           style={{
             objectFit: "cover",
             position: "fixed",
