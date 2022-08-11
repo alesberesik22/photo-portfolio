@@ -27,24 +27,24 @@ function Intro() {
       <Center style={frame} onClick={()=> history.push("/overview/0%7D")}>
           <div style={{maxWidth: 800, margin: 40}}>
             <p>
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
             </p>
             <p>
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
             </p>
             <p>
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
             </p>
             <p>
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
-                Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej Filip je gej 
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
             </p>
             {console.log(display)}
             {display ? <p style={{color:'#970EF6'}}>
